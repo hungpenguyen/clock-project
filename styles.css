@@ -1,0 +1,36 @@
+
+#clockBody {
+  margin: 100px auto;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  background-image: url("images/clockbackground.png");
+  border-radius: 50%;
+  border: solid 20px;
+  /* transform: rotate(-90deg); */
+}
+
+.hand {
+  position: absolute;
+  margin: 250px 250px ;
+  transform-origin: 0% 0%;/* x,y,z */
+}
+
+#secondHand {
+  width: 200px;
+  height: 3px;
+  background-color: yellow;
+}
+
+#minuteHand {
+  width: 150px;
+  height: 5px;
+  background-color: blue;
+}
+
+#hourHand {
+  width: 120px;
+  height: 8px;
+  background-color: black;
+
+}
